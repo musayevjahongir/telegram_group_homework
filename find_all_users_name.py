@@ -17,4 +17,4 @@ def find_all_users_name(data: dict)->list:
             a.append(i["from"])
     return a 
 s=read_data("data/result.json")
-print(len(find_all_users_name(s)))
+print(find_all_users_name(s))
